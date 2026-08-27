@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/logo.jpg" type="image/jpeg">
 
-    <title>JanTech</title>
+    <title>KevinWeb</title>
 </head>
 
 <body>
@@ -22,10 +22,10 @@
             width="50"
             height="50"
             style="border-radius: var(--radius);"
-            alt="JanTech Logo"
+            alt="KevinWeb Logo"
         >
 
-        <h1 class="logo">JanTech</h1>
+        <h1 class="logo">KevinWeb</h1>
 
     </div>
 

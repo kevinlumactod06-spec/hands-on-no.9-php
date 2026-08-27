@@ -1,91 +1,176 @@
-<?php include 'layout/header.php' ?>
+<?php include 'layout/header.php'; ?>
 
 <main class="main-content">
+
+    <!-- HERO SECTION -->
     <section class="hero">
-        <h1 class="hero-title">Welcome to JanMart <span>Tech Shop</span></h1>
-        <p class="hero-desc">Next-generation shopping powered by advanced, lightning-fast technology.</p>
+        <div class="hero-content">
+            <p class="welcome-text">WELCOME TO KEVINWEB</p>
 
-       <button class="shop-but">Shop</button>
-        
+            <h1>
+                Upgrade Your
+                <span>Digital World</span>
+            </h1>
+
+            <p class="hero-desc">
+                Discover reliable and modern technology products
+                designed for work, gaming, and everyday life.
+            </p>
+
+            <button class="shop-but">Explore Products</button>
+        </div>
     </section>
 
+
+    <!-- CATEGORY SECTION -->
     <section class="filter-section">
-        <button class="filter-pill active">All</button>
+
+        <button class="filter-pill active">All Products</button>
         <button class="filter-pill">Laptops</button>
-        <button class="filter-pill">Headphones</button>
+        <button class="filter-pill">Audio</button>
         <button class="filter-pill">Accessories</button>
+
     </section>
 
+
+    <!-- PRODUCTS -->
     <section class="product-grid">
 
-    <div class="product-card">
-        <div class="product-image">
-            <img src="images/laptop.jpg" alt="gaming laptop">
+        <!-- PRODUCT 1 -->
+        <div class="product-card">
+
+            <div class="product-image">
+                <img src="images/laptop.jpeg" alt="Gaming Laptop">
+            </div>
+
+            <div class="product-info">
+
+                <span class="category">LAPTOP</span>
+
+                <h3>Gaming Laptop</h3>
+
+                <p>
+                    Powerful performance for gaming,
+                    school, and productivity.
+                </p>
+
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    ₱45,999
+                    <span class="old-price">₱50,999</span>
+                </div>
+
+                <button class="cart-button">
+                    Add to Cart
+                </button>
+
+            </div>
+
         </div>
 
-        <h3>Gaming Laptop</h3>
-        <p>Powerful laptop for gaming and productivity.</p>
 
-        <div class="rating">★★★★★</div>
+        <!-- PRODUCT 2 -->
+        <div class="product-card">
 
-        <p class="price">
-            ₱45,999
-            <span class="old-price">₱50,999</span>
-        </p>
+            <div class="product-image">
+                <img src="images/headphonesjpg.jpg" alt="Wireless Headphones">
+            </div>
 
-        <button class="cart-button">Add to Cart</button>
-    </div>
+            <div class="product-info">
 
-    <div class="product-card">
-        <div class="product-image">
-            <img src="images/headphonesjpg.jpg" alt="heaphones">
+                <span class="category">AUDIO</span>
+
+                <h3>Wireless Headphones</h3>
+
+                <p>
+                    Enjoy immersive sound with
+                    comfortable wireless audio.
+                </p>
+
+                <div class="rating">★★★★☆</div>
+
+                <div class="price">
+                    ₱2,499
+                </div>
+
+                <button class="cart-button">
+                    Add to Cart
+                </button>
+
+            </div>
+
         </div>
 
-        <h3>Wireless Headphones</h3>
-        <p>Enjoy clear sound with comfortable wireless audio.</p>
 
-        <div class="rating">★★★★☆</div>
+        <!-- PRODUCT 3 -->
+        <div class="product-card">
 
-        <p class="price">₱2,499</p>
+            <div class="product-image">
+                <img src="images/mouse.jpg" alt="Wireless Mouse">
+            </div>
 
-        <button class="cart-button">Add to Cart</button>
-    </div>
+            <div class="product-info">
 
-    <div class="product-card">
-        <div class="product-image">
-            <img src="images/mouse.jpg" alt="mouse">
+                <span class="category">ACCESSORY</span>
+
+                <h3>Wireless Mouse</h3>
+
+                <p>
+                    Smooth and responsive control
+                    for work and everyday use.
+                </p>
+
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    ₱899
+                </div>
+
+                <button class="cart-button">
+                    Add to Cart
+                </button>
+
+            </div>
+
         </div>
 
-        <h3>Wireless Mouse</h3>
-        <p>Comfortable and responsive mouse for everyday use.</p>
 
-        <div class="rating">★★★★★</div>
+        <!-- PRODUCT 4 -->
+        <div class="product-card">
 
-        <p class="price">₱899</p>
+            <div class="product-image">
+                <img src="images/keyboard.jpg" alt="Mechanical Keyboard">
+            </div>
 
-        <button class="cart-button">Add to Cart</button>
-    </div>
+            <div class="product-info">
 
-    <div class="product-card">
-        <div class="product-image">
-            <img src="images/keyboard.jpg" alt="keyboard">
+                <span class="category">ACCESSORY</span>
+
+                <h3>Mechanical Keyboard</h3>
+
+                <p>
+                    Responsive mechanical switches
+                    for a better typing experience.
+                </p>
+
+                <div class="rating">★★★★☆</div>
+
+                <div class="price">
+                    ₱1,999
+                    <span class="old-price">₱2,499</span>
+                </div>
+
+                <button class="cart-button">
+                    Add to Cart
+                </button>
+
+            </div>
+
         </div>
 
-        <h3>Mechanical Keyboard</h3>
-        <p>Durable keyboard with responsive mechanical switches.</p>
-
-        <div class="rating">★★★★☆</div>
-
-        <p class="price">
-            ₱1,999
-            <span class="old-price">₱2,499</span>
-        </p>
-
-        <button class="cart-button">Add to Cart</button>
-    </div>
-
-</section>
+    </section>
 
 </main>
 
-<?php include 'layout/footer.php' ?>
+<?php include 'layout/footer.php'; ?>
