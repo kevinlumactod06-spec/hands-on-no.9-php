@@ -1,5 +1,5 @@
 <footer class="site-footer">
-    <p>&copy; 2026 JanTech. All Rights Reserved.</p>
+    <p>&copy; 2026 KevinDev. All Rights Reserved.</p>
 </footer>
 
 </body>
